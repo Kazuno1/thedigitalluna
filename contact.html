@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+  <link href="favicon.svg" rel="icon" />
+  <link href="style.css" rel="stylesheet" />
+  <title>Contact Us | The Digital Luna</title>
+  <meta content="Get a free strategy session with The Digital Luna. Let’s plan your next growth campaign."
+    name="description" />
+  <link href="https://thedigitalluna.com/contact.html" rel="canonical" />
+  <meta content="Contact Us | The Digital Luna" property="og:title" />
+  <meta content="Get a free strategy session with The Digital Luna. Let’s plan your next growth campaign."
+    property="og:description" />
+  <meta content="website" property="og:type" />
+  <meta content="https://thedigitalluna.com/contact.html" property="og:url" />
+  <meta content="assets/logo.png" property="og:image" />
+  <meta content="summary_large_image" name="twitter:card" />
+  <meta content="Contact Us | The Digital Luna" name="twitter:title" />
+  <meta content="Get a free strategy session with The Digital Luna. Let’s plan your next growth campaign."
+    name="twitter:description" />
+  <meta content="assets/logo.png" name="twitter:image" />
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Contact Us | The Digital Luna",
+  "description": "Get a free strategy session with The Digital Luna. Let\u2019s plan your next growth campaign.",
+  "url": "https://thedigitalluna.com/contact.html",
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Digital Luna",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "assets/logo.png"
+    }
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "index.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Contact Us",
+        "item": "https://thedigitalluna.com/contact.html"
+      }
+    ]
+  }
+}</script>
+</head>
+
+<body>
+  <canvas aria-hidden="true" id="bg"></canvas>
+  <div class="notice">🚀 New: Conversion-first web builds with next-day kickoff. <a href="contact.html">Book a strategy
+      call</a>.</div>
+  <!-- Header / Nav -->
+  <header class="header">
+    <div class="container nav">
+      <a aria-label="The Digital Luna Home" class="brand" href="index.html">
+        <img alt="The Digital Luna logo" class="logo" src="logo.png" />
+        <span>The Digital Luna</span>
+      </a>
+      <nav aria-label="Primary" class="nav-links">
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Work</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+        <a class="btn small" href="contact.html">Get Quote</a>
+      </nav>
+      <button aria-label="Open menu" class="mobile-toggle" id="mobToggle">☰</button>
+    </div>
+    <div class="drawer" id="drawer">
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Work</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+      <a class="btn small" href="contact.html">Get Quote</a>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Get a Free Strategy Session</h1>
+      <p>Share your goals — we’ll reply with a plan in 24 hours.</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="container contact-grid">
+      <!-- Left: Contact Form -->
+      <form class="card form" action="https://formspree.io/f/xkogyelo" method="POST">
+        <!-- Optional: Custom subject line -->
+        <input type="hidden" name="_subject" value="New Inquiry — The Digital Luna">
+
+        <!-- Optional: Honeypot (spam protection) -->
+        <input type="text" name="_gotcha" style="display:none">
+
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" name="name" placeholder="Your name" required />
+        </div>
+
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" name="email" placeholder="Your email" required />
+        </div>
+
+        <div class="form-group">
+          <label>Company</label>
+          <input type="text" name="company" placeholder="Company or brand" />
+        </div>
+
+        <div class="form-group">
+          <label>What are you looking to achieve?</label>
+          <textarea name="message" placeholder="e.g., new site, faster pages, SEO, ads" rows="4" required></textarea>
+        </div>
+
+        <div class="form-row">
+          <label class="checkbox-label">
+            <input type="checkbox" name="subscribe" value="yes" />
+            <span>Subscribe to insights</span>
+          </label>
+
+          <button type="submit" class="btn">Send Request</button>
+        </div>
+      </form>
+
+
+      <!-- Right: Info -->
+      <div class="card contact-info">
+        <h3>What Happens Next?</h3>
+        <ul class="tick-list">
+          <li>We review your goals & current channels</li>
+          <li>We send a quick-win plan + pricing</li>
+          <li>Kickoff on the next business day</li>
+        </ul>
+        <p class="mt-20">
+          Prefer email?
+          <a href="mailto:hello@thedigitalluna.com">hello@thedigitalluna.com</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer simple">
+    <div class="container legal">
+      <small>© <span id="year"></span> The Digital Luna</small>
+      <a class="pill" href="index.html">Back to Home</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
